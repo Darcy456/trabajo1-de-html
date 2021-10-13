@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body background="img/menu.jpg">
+  <header>
+
+    <nav>
+      <img src="img/fast-food.svg" width=" 69" height="47" />
+      <font face="Forte" size="15">Comidas rapidas</font>
+    </nav>
+  </header>
+  <section class="container">
+    <section class="section_one">
+      <div class="section_one_header">
+        <font face="Forte" size="5">Comidas</font>
+      </div>
+
+      <div class="section_one_nav">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper swiper-container">
+            <
+            <div class="swiper-slide">
+              <img class="responsive" src="./img/2.jpg" alt="Imagen 2">
+            </div>
+            <div class="swiper-slide">
+              <img class="responsive" src="./img/3.jpg" alt="Imagen 3">
+            </div>
+            <div class="swiper-slide">
+              <img class="responsive" src="./img/1.jpg" alt="Imagen 4">
+            </div>
+            <div class="swiper-slide">
+              <img class="responsive" src="./img/5.jpg" alt="Imagen 5">
+            </div>
+            <div class="swiper-slide">
+              <img class="responsive" src="./img/7.jpg" alt="Imagen 7">
+            </div>
+           
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div class="section_one_footer">
+        <img src="img/whatsapp.svg" width=" 59" height="37" />
+        <font face="Century Gothic" size="5"> +573142590266</font>
+      </div>
+    </section>
+    <section class="section_two">
+      <div class="section_two_header1">
+        <font face="Forte" size="6"> FAST FOOD MENU</font>
+      </div>
+
+      <div class="section_two_article1">
+
+        <div class="section_two_article_header">
+          <font face="Forte" size="5"> TACOS</font>
+        </div>
+        <div class="section_two_article_p1">
+          <font face="Century Gothic" size="4"> Taco a la Mexicana.................................... $15.000</font>
+        </div>
+        <div class="section_two_article_p2">
+          <font face="Century Gothic" size="4"> Taco de longaniza....................................$20.000</font>
+        </div>
+        <div class="section_two_article_footer">
+          <font face="Century Gothic" size="4"> Taco de pollo....................................$20.000</font>
+        </div>
+      </div>
+      </div>
+      <div class="section_two_article2">
+
+        <div class="section_two_header">
+          <font face="Forte" size="6"> burgers and pizza</font>
+        </div>
+        <div class="section_two_cajaAside">
+          <div class="section_two_p">
+            <font face="Century Gothic" size="4">
+              <p> Hamburguesa de pollo..................$16.000</p>
+              <p>Hamburguesa ranchera..................$17.000</p>
+              <p>Porción de pizza hawaiana..................$7.000</p>
+              <p>Pizza familiar de pollo..................$35.000</p>
+            </font>
+          </div>
+          <div class="section_two_aside">
+            <img src="./img/ham.jpg" width="190" height="100">
+            <br>
+            <img src="./img/pizza.jpg" width="190" height="70">
+          </div>
+        </div>
+        <div class="section_two_footer1">
+          <font face="Forte" size="5"> FOODS</font>
+        </div>
+      </div>
+      <div class="section_two_footer2">
+        <font face="Forte" size="5"> enjoy your meal</font>
+      </div>
+    </section>
+  </section>
+  <footer class="uf">
+    <font face="Century Gothic" size="4">Darcy Vanessa Alvarez Ferreira </font>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 2,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
